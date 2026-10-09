@@ -107,3 +107,38 @@ Complete:
 Commit and push your solution.
 
 GitHub Actions will automatically run the tests.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+
+    <form action="#" method="get">
+        <label>Name:</label>
+        <input type="text" name="name"
+               required autofocus>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email"
+               required>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age"
+               min="1" max="100" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password"
+               minlength="6" required>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
